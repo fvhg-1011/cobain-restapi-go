@@ -6,13 +6,13 @@
 
 ```
 go mod init cobain/cobain-restapi
-go mod tidy
 ```
 
 2.installing dependencies
 
 ```
 go get .
+go mod tidy //alternative
 ```
 
 3. running the server
