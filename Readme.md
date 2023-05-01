@@ -6,6 +6,7 @@
 
 ```
 go mod init cobain/cobain-restapi
+go mod tidy
 ```
 
 2.installing dependencies
