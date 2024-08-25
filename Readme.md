@@ -2,7 +2,7 @@
 
 ## Setup Go Environment
 
-1. create go module path
+1. create go modules path
 
 ```
 go mod init cobain/cobain-restapi
