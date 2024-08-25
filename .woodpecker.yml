@@ -1,13 +1,13 @@
 steps:
   build:
-    image: golang:1.20
+    image: golang:1.22
     commands:
       - echo "Building the Go application..."
       - go mod tidy
       - go build -v .
 
   test:
-    image: golang:1.20
+    image: golang:1.22
     commands:
       - echo "Running tests..."
       - go test -v ./...
